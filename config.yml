@@ -18,7 +18,11 @@ engine:                      # Engine settings.
         - komodo.bin
         - elo3300.bin
         - Cerebellum3Merge.bin
+        - engines/book1.bin
+        - engines/book2.bin 
 #      atomic: # list of book file paths for variant atomic
+#        - engines/atomicbook1.bin
+#        - engines/atomicbook2.bin 
 #      etc.
 #      use the same pattern for giveaway, crazyhouse, horde, kingofthehill, racingkings, 3check as well
       min_weight: 100          # selects move with highest weight but not below this value
